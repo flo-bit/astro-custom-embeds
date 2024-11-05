@@ -1,0 +1,42 @@
+{
+    "name": "astro-custom-embeds",
+    "version": "0.0.1",
+    "description": "Astro integration to easily add your own embeds (that replace matching URLs in mdx files)",
+    "type": "module",
+    "exports": {
+        ".": "./src/index.ts"
+    },
+    "files": [
+        "src"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/flo-bit/astro-custom-embeds"
+    },
+    "author": "flo-bit",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/flo-bit/astro-custom-embeds/issues"
+    },
+    "dependencies": {
+        "@types/unist": "^2.0.0",
+        "astro-auto-import": "^0.4.2",
+        "remark-directive": "^3.0.0",
+        "unist-util-select": "^4.0.1",
+        "unist-util-visit": "^5.0.0"
+    },
+    "peerDependencies": {
+        "astro": "^4.0.0 || ^5.0.0-beta"
+    },
+    "keywords": [
+        "astro-component",
+        "withastro",
+        "tooling",
+        "utils",
+        "ui",
+        "embeds",
+        "mdx",
+        "markdown"
+    ],
+    "homepage": "https://github.com/flo-bit/astro-custom-embeds#readme"
+}
