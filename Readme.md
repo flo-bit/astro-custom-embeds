@@ -1,6 +1,6 @@
 # Astro Custom Embeds Integration
 
-This Astro integration allows you to easily add custom embeds to your Astro components, that replace URLs (or directives) in `mdx` files with your custom components.
+This Astro integration allows you to easily add custom embeds that replace URLs (or directives) in `mdx` files with your custom components.
 
 So for example you can replace a YouTube URL with an embedded youtube player, or a Twitter URL with an embedded tweet.
 
