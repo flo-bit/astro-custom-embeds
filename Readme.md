@@ -17,7 +17,7 @@ First, install the integration via npm:
 npm install astro-custom-embeds
 ```
 
-## Usage
+## Configure
 
 To use the custom embeds integration, add it to your `astro.config.ts` file (**BEFORE** the `mdx` integration):
 
@@ -84,7 +84,9 @@ export default defineConfig({
 });
 ```
 
-Then in your `mdx` files you can add a YouTube video by just adding a youtube link (as long as it's on its own line):
+## Usage
+
+In your `mdx` files you can add a YouTube video by just adding a youtube link (as long as it's on its own line):
 
 ```md
 
